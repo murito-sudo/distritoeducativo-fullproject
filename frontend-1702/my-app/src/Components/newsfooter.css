@@ -1,0 +1,45 @@
+.newsFooter{
+	background-color: #707070;
+	color: #fff;
+	
+
+
+}
+
+
+.newsFooterLogo{
+	width: 63px;
+	height: 63px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.newsFooterContent{
+	text-align: center;
+	padding: 50px 0;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+
+
+.newsFooterEmail:hover{
+	border-bottom: white 2px solid;
+}
+
+
+.NewsFooterPoliticElement{
+	transition: .2s ease-out;
+    -webkit-transition: .2s ease-out;
+}
+.newsFooterPoliticElement:hover{
+	border-bottom: rgb(0,34,103) 2px solid;
+	color: rgb(0, 34, 103);
+
+	transition: .5s ease-out;
+    -webkit-transition: .5s ease-out;
+}
+
+

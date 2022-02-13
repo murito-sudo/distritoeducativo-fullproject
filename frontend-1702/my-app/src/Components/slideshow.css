@@ -1,0 +1,144 @@
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+a:visited{
+	color: inherit;
+}
+
+.Slideshow{
+	position: relative;
+	width: 100%;
+	margin-bottom: 200px;
+}
+.Slides{
+	position: relative;
+	top: 0;
+}
+
+.imgTest{
+	height: 625px;
+	width: 100%;
+	
+}
+
+.SlideOptions{
+	display: inline-block;
+	background-color: rgba(0,0,0,0.3);
+	color: white;
+	position: absolute;
+	top: 0%;
+	padding-left: 80px;
+	padding-right: 80px;
+	width: 90%;
+	height: 52px;
+
+	
+
+
+}
+
+.Logo{
+
+
+	font-size: 32px;
+	
+}
+
+.LogoT{
+	font-size: 48px;
+	font-family: 'Josefin Sans';
+	font-weight: 700;
+	color: #2954A2;
+	background-color: white;
+	padding: 0px 11px;
+}
+
+.LogoE{
+	font-size: 48px;
+	font-family: 'Josefin Sans';
+	font-weight: 700;
+	line-height: 1.1em;
+
+
+}
+
+
+
+.List{
+	margin: 0;
+	display: flex;
+	float: right;
+	list-style: none;
+
+
+}
+
+.Element{
+	font-size: 16px;
+	padding: 14.4px 12.96px 17.28px;
+
+}
+
+
+
+
+.Element:first-child{
+	background-color: #2954A2;
+}
+
+
+
+.Element:hover{
+	font-size: 18px;
+	background:#2954a2;
+	transition: .5s ease-in;
+	-webkit-transition: .5s ease-in;
+	-moz-transition: .5s ease-in;
+	-o-transition: .5s ease-in;
+	-ms-transition: .5s ease-in;
+}
+
+
+.Element:last-child{
+	padding: 7.2px 6.48px 9px;
+	display: none;
+}
+
+.menuButtonBurguer{
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(255,101,47,.2);
+	transition: all .5s ease-in-out;
+	width: 25px;
+	height: 5px;
+	margin-top: 5px;
+}
+
+
+@media(max-width: 825px){
+	.Element{
+		display: none;
+	}
+
+	.SlideOptions{
+		padding: 0 30px;
+		width: 100%;
+	}
+
+	.Element:last-child{
+		display: inline-block;
+		float: right;
+		margin-right: 35px;
+	}
+
+}
+
+
+
+
+
+
+

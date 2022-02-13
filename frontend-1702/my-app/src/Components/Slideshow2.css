@@ -1,0 +1,97 @@
+.Slideshow2{
+
+	position: relative;
+	width: 100%;
+
+
+	
+}
+
+
+
+.SlideOptions2{
+	display: inline-block;
+	background-color: rgba(0,0,0,0.3);
+	color: white;
+
+	
+	top: 0%;
+	padding-left: 80px;
+	padding-right: 80px;
+	width: 90%;
+	height: 52px;
+
+	
+
+
+}
+
+.Slides2{
+
+	top: 0;
+
+
+}
+
+
+
+
+.Element2{
+	font-size: 18px;
+	padding: 12px 12.96px 17.28px;
+
+}
+
+
+.Element2 a{
+	padding: 12px 12.96px 17.28px;
+}
+
+.Element2:last-child{
+	padding: 7.2px 6.48px 9px;
+	display: none;
+}
+
+
+.Element2:hover{
+	font-size: 18px;
+	background:#2954a2;
+	transition: .5s ease-in;
+
+	-webkit-transition: .5s ease-in;
+	-moz-transition: .5s ease-in;
+	-o-transition: .5s ease-in;
+	-ms-transition: .5s ease-in;
+}
+
+
+
+.Element2:last-child{
+	padding: 7.2px 6.48px 9px;
+	display: none;
+}
+
+
+@media(max-width: 1050px){
+
+
+
+	.Element2{
+		display: none;
+	}
+
+
+	.Element2:last-child{
+		display: inline-block;
+		float: right;
+		margin-right: 35px;
+	}
+	
+}
+
+@media(max-width: 900px){
+	.SlideOptions2{
+		padding: 0 40px;
+
+	}
+}

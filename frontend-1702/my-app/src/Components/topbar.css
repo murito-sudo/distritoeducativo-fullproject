@@ -1,0 +1,34 @@
+.topBar{
+	background-color: #2954A2;
+	color: white;
+	padding: 16px 0px 36.8px;
+	font-size: 14.4px;
+
+
+}
+
+
+.Info{
+	margin-right: 50px;
+	display: flex;
+	float: right;
+
+
+}
+
+.InfoItem{
+	display: flex;
+	justify-content: space-around;
+
+}
+
+
+.InfoItem:first-child{
+	margin-right: 25px;
+}
+
+.InfoIcon{
+	color: rgb(244, 121, 44);
+}
+
+

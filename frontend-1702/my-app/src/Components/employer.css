@@ -1,0 +1,44 @@
+.EmployerCard{
+	width: 380px;
+	background-color: #2954a2;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  	transition: 0.3s;
+  	padding: 16px;
+
+}
+
+
+.EmployerCardContent{
+	padding: 32px 0 ;
+}
+
+.CardEmployerImage !important{
+	border-radius: 10px;
+	width: 100;
+
+}
+
+.EmployerName{
+	font-weight: 700;
+	color: #F4792C;
+	text-align: center;
+	margin: 10px 0;
+
+}
+
+.EmployerOpinion{
+	text-align: center;
+	color: white;
+	width: 80%;
+	line-height: 2em;
+	margin: 0 30px;
+
+
+}
+
+.owl-carousel .owl-item img {
+    
+    width: 200px;
+    margin: 0px 70px; }
+
+

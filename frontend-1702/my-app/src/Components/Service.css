@@ -1,0 +1,60 @@
+.Service{
+	text-align: center;
+}
+
+
+
+.ServiceIcon{
+	
+	transform: scale(2);
+	color: #2954a2;
+	padding: 12px;
+	background-color: #E2DFDF;
+	transition: .2s ease-in;
+    -webkit-transition: .2s ease-in;
+	
+
+}
+
+
+.ServiceIcon:hover{
+	background-color: #F4792C;
+	color: white;
+	cursor: pointer;
+
+	transition: .2s ease-in;
+    -webkit-transition: .2s ease-in;
+
+}
+.ServiceIcon:hover{
+
+
+	
+
+}
+
+
+.ServiceHeader{
+	font-size: 24px;
+	margin: 34px 0px 12px;
+}
+
+.ServiceValue{
+	margin: 0;
+	font-family: "PT Sans";
+	display: inline-block;
+	line-height: 1.8em;
+	width: 100%;
+}
+
+
+@media(max-width: 875px){
+	.ServiceIcon{
+		transform: scale(1.4);
+		margin-top: 20px;
+	}
+}
+
+
+
+

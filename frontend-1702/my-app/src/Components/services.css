@@ -1,0 +1,63 @@
+.Box{
+	margin-top: 15px;
+	background-image: url("../images/rep.dig.jpg");
+	background-size: cover;
+	color: white;
+	font-family: "Josefin Sans", sans-serif;
+
+}
+
+
+.Section{
+	padding: 64px 0;
+}
+
+.Container{
+	margin: 0 126.5px;
+}
+
+.line{
+	width: 200px;
+	float: left;
+
+}
+
+h3{
+	font-size: 40px;
+	margin: 0;
+}
+
+.Services{
+	display: grid;
+	margin-top: 35px;
+	padding: 48px 32px;
+	background-color: #0C0C0C2E;
+	grid-template-columns: 25% 25% 25% 25%;
+}
+
+@media(max-width: 1045px){
+	.Container{
+		margin: 0 30px;
+		grid-column-gap: 15px;
+	}
+
+}
+
+
+
+@media(max-width: 870px){
+	.Container{
+		margin: 0 10px;
+	}
+	.Services{
+
+		grid-template-columns: 50% 50%;
+		
+	}
+
+	.ServiceValue{
+
+	}
+
+
+}

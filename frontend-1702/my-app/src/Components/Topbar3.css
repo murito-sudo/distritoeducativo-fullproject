@@ -1,0 +1,239 @@
+.Topbar3Container{
+	display:grid;
+	grid-template-columns: 70% 30%;
+	margin: 0 112px;
+	padding-top: 20px;
+}
+
+
+
+
+
+.Noticias-Logo{
+	height: 120px;
+	width: 220px;
+
+}
+
+
+.TopbarInput3{
+	font-weight: normal;
+    font-size: 12px;
+    color: #231f20;
+    line-height: 1;
+    padding: 8px 10px;
+    height: 16px;
+    background: #fff;
+    border: solid 1px #003876;
+    border-radius: 4px 0 0 4px;
+
+
+
+}
+
+
+
+
+.TopBarButton3{
+	height: 31px;
+    width: 35px;
+    background: #003876;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+    font-weight: normal;
+    font-size: 12px;
+    color: #fff;
+    border: none;
+	
+}
+
+.TopbarList3{
+	padding: 8px;
+}
+
+
+.TopLink3{
+	color: #6d6e71;
+	content: "|";
+	margin-right: 30px;
+	font-size: 13px;
+
+}
+
+
+.responsiveTopbar3Button{
+	display: none;
+}
+
+.responsiveTopbar3Button button {
+	background-color: #003876;
+    display: block;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    height: 40px;
+   
+    font-size: 1em;
+    padding: 0;
+    text-transform: capitalize;
+
+}
+
+.responsiveTopbar3Button button:hover {
+	cursor: pointer;
+	
+}
+
+
+
+.TopLink3:hover{
+	border-bottom: 2px #6d6e71 solid;
+	
+
+	transition: .2s ease-in;
+    -webkit-transition: .2s ease-in;
+}
+
+
+.TopbarMenu3{
+	background-color: #002264;
+	margin-top: 8px;
+
+
+
+}
+
+.TopbarMenu3 div{
+	margin: 0 96px;
+
+}
+
+
+.TopbarMenu3List{
+	
+	display: block;
+	list-style: none;
+	color: white;
+	margin: 0;
+}
+
+.TopbarMenu3Anchor:hover{
+	color: black;
+}
+
+
+.TopbarMenu3Element{
+	display: inline-block;
+
+	color: white;
+	padding: 16px 24px;
+	
+	text-align: center;
+
+	transition: .2s ease-in;
+    -webkit-transition: .2s ease-in;
+
+}
+
+
+.TopbarMenu3Element:hover{
+	background-color: white;
+	color: black;
+	border-top: 2px #6d6e71 solid;
+	
+
+	transition: .5s ease-out;
+    -webkit-transition: .5s ease-out;
+}
+
+
+
+
+@media(max-width: 970px){
+
+	.Topbar3Container{
+		grid-template-columns: 65% 35%
+	}
+
+	.TopbarMenu3 div{
+		margin: 0 64px;
+	}
+
+
+}
+
+
+@media(max-width: 910px){
+	.Topbar3Container{
+		display: grid;
+		grid-template-columns: 100%;
+		margin: 0 24px;	
+	}
+
+	.Topbar3Container div:first-child{
+		display: block;
+		text-align: center;
+	}
+
+	
+
+
+	.TopbarMenu3{
+		display: none;
+	}
+
+	.TopbarInput3{
+	    width: 70%;
+	    height: calc(1.5em + .75rem + 2px);
+	    padding: .375rem .75rem;
+	    font-size: 1rem;
+	    font-weight: 400;
+	    line-height: 1.5;
+	    color: #495057;
+	    background-color: #fff;
+	    background-clip: padding-box;
+	    border: 1px solid #ced4da;
+	    border-radius: .25rem;
+	    transition: border-color .15s;
+
+	}
+
+	.TopbarList3{
+		display: none;
+	}
+
+	.TopBarButton3{
+		display: none;
+	}
+
+
+	.responsiveTopbar3Button{
+		margin-top: 10px;
+		display: block;
+
+				
+	}
+
+
+	.responsiveTopbar3Button button{
+		margin-left: auto;
+		margin-right: auto;
+		padding: 8px;
+	}
+
+	
+	
+
+
+	
+
+
+
+
+	
+
+
+
+	
+	
+}

@@ -1,0 +1,260 @@
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #999999;
+  
+}
+
+
+.page-footer{
+
+}
+
+
+.page-subscribe{
+	background-image: url("../images/ESTUDIANTES.jpg") ;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 4em 0;
+
+	position: relative;
+
+   
+
+
+}
+
+
+.page-subscribe-content{
+	
+
+
+}
+
+
+.page-subscribe-header{
+	color: white;
+	text-align: center;
+	font-size: 44px;
+	margin: 0px 0px 24px;
+	width: 100%;
+	z-index: 1;
+
+
+}
+
+
+.page-subscribe-text{
+
+	text-align: center;
+	color: #999999;
+	width: 100%;
+	margin-top: 0;
+
+	margin: 0px 0px 20px;
+
+
+
+}
+
+
+
+.page-footer-form{
+	 z-index: 1; 
+	text-align: center;
+	margin: 32px 0 0;
+	width: 50%;
+    margin: 0 auto;
+    padding: 0.7em 0;
+    border-radius: 15px;
+    border: 1px solid #4f4f5b;
+
+}
+
+.page-footer-input{
+	background-color: rgba(0,0,0,0);
+	border: none;
+	width: 70%;
+	outline: none;
+	font-size: 17px;
+	color: #999999;
+}
+
+.subscribe-footer-button{
+	color: #ffffff;
+    font-size: 1em;
+    width: 161px;
+    border-radius: 15px;
+    letter-spacing: 1px;
+    border: none;
+    outline: none;
+    padding: 0.8em 0;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    background: #f4792c;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+
+}
+
+.subscribe-footer-button:hover{
+	background-color: #2954a2;
+	cursor: pointer;
+	 transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+
+}
+
+
+
+
+
+.page-contact{
+	background-color: #2954a2;
+	padding: 20.8px 0px 16px;
+}
+
+
+
+
+.page-contact-container{
+	display: grid;
+	grid-template-columns: 60% 40%;
+	margin: 0 20px;
+}
+
+
+.footer-rights{
+	color: white;
+	margin-top: 0;
+
+}
+
+
+.footer-socialmedia{
+	float: right;
+	margin-right: 40px;
+	padding: 3px;
+	transition: .3s ease-in;
+    -webkit-transition: .3s ease-in;
+
+
+}
+
+
+.footer-socialmedia:hover{
+	padding-right: 25px;
+
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+
+	transition: .3s ease-in;
+    -webkit-transition: .3s ease-in;
+	
+}
+
+.footer-socialmedia:hover > .footer-icon{
+	color: #F4792C;
+	transition: .3s ease-in;
+    -webkit-transition: .3s ease-in;
+}
+
+
+
+
+.footer-icon{
+	color: white;
+	transform: scale(1.32);
+	transition: .3s ease-in;
+    -webkit-transition: .3s ease-in;
+	
+}
+
+
+
+
+
+@media(max-width: 1150px){
+
+	
+	.page-contact-container{
+		grid-template-columns: 30% 70%;
+	}
+
+	.page-footer-form{
+		width: 70%;
+	}
+	.page-footer-input{
+		width: 67%;
+	}
+
+
+}
+
+
+@media(max-width: 925px){
+
+
+
+	.page-contact-container{
+		width: 100%;
+		display: inline-block;
+		
+
+	}
+
+
+	.page-footer-form{
+		width: 80%;
+	}
+	.page-footer-form{
+		width: 90%;
+	}
+	.page-footer-input{
+		width: 67%;
+	}
+
+
+
+
+
+}
+
+@media(max-width: 925px){
+
+
+	.page-contact-container{
+		width: 100%;
+
+	}
+
+
+	.footer-rights{
+		display: block;
+		text-align: center;
+	}
+	.footer-socialmedias{
+		display: block;
+		text-align: center;
+	}
+
+	.footer-socialmedia{
+		float: none;
+
+		
+	}
+
+}
+
+@media(max-width: 700px){
+	.page-footer-form{
+		width: 100%;
+	}
+	.subscribe-footer-button{
+		width: 155px;
+
+	}
+
+	.page-footer-input{
+		width: 67%;
+	}
+}

@@ -1,0 +1,21 @@
+.GalleryImage{
+	height: 100%;
+	width: 100%;
+	transition: .2s ease-in;
+    -webkit-transition: .2s ease-in;
+}
+
+
+.GalleryImage:hover{
+	cursor: pointer;
+	filter: grayscale(0.5);
+
+	transition: .5s ease-in;
+    -webkit-transition: .5s ease-in;
+}
+
+
+
+@media(max-width: 600px){
+	
+}

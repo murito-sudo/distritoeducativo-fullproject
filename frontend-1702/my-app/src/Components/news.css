@@ -1,0 +1,198 @@
+
+.NewsContainer{
+	margin: 0 100px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding: 24px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	z-index: 1;
+	font-family: 'Atkinson Hyperlegible', sans-serif;
+
+	
+}
+
+
+.articleBanner{
+	position: relative;
+	
+	z-index: -1;
+}
+.articleBanner::before{
+ content: "";
+    position: absolute;
+    background: #00387699;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 300px;
+    width: 100%;
+    opacity: .7;
+
+
+}
+
+.newsId{
+	display: none;
+}
+
+
+
+.NewsPos{
+
+	font-size: 14px;
+	color: #6d6e71;
+
+}
+
+
+
+.NewsPos span a:hover{
+	color: black;
+}
+
+.NewsCurrent{
+	font-weight: bolder;
+}
+
+.NewsHeader{
+	color: #231f20;
+	font-weight: thin;
+	max-height: 87px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+ 	display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+
+
+
+
+
+.NewsContent{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-gap: 64px 24px;
+	
+
+}
+
+.NewsElement{
+	display: grid;
+	grid-template-columns: 45% 55%;
+	
+}
+
+.NewsElement:hover{
+	cursor: pointer;
+}
+
+
+.NewsImage{
+	width: 280.5px;
+	height: 185px;
+	border-radius: 8px;
+}
+
+
+
+.NewsHeader{
+	color: black;
+	font-size: 24px;
+	margin: 0;
+	width: 90%;
+}
+
+.NewsDate{
+	color: black;
+	font-size: 14px;
+	margin: 8px 0;
+}
+.NewsDesc{
+	color: #231f20;
+	font-size: 14.5px;
+	margin: 8px 0;
+	font-weight: thin;
+	max-height: 87px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+ 	display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+
+
+.NewsPagination{
+	margin-top: 50px;
+	line-height: 1;
+    color: #6d6e71;
+    display: block;
+    padding: 14px 20px;
+
+}
+
+
+.NewsButton{
+	background: transparent;
+	line-height: 1;
+    color: #6d6e71;
+    padding: 14px 20px;
+    border: 1px solid rgba(112,112,112,.15);
+    font-size: 14px;
+}
+
+.NewsButton:hover{
+	background-color: #003876;
+	cursor: pointer;
+	color: white;
+	transition: .2s ease-in;
+    -webkit-transition: .2s ease-in;
+}
+
+
+
+@media (max-width: 1520px){
+	.NewsContainer{
+		margin: 0 72px;
+	}
+}
+
+
+@media(max-width: 1350px){
+	.NewsContent{
+		grid-template-columns: 100%;
+		text-align: center;
+	}
+
+
+
+	.NewsElement{
+		grid-template-columns: 100%;
+	}
+
+
+	.NewsImage{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		height: auto;
+		width: 90%;
+	}
+
+}
+
+
+@media(max-width: 1100px){
+	.NewsContainer{
+		margin: 0;
+		padding: 0;
+	}
+
+	.NewsTopbar{
+		margin-top: 40px;
+		margin-left: 25px;
+	}
+
+
+}

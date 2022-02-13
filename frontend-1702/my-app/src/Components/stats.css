@@ -1,0 +1,33 @@
+.Item{
+	display: inline-block;
+	width: 250px;
+}
+
+.Scroller{
+	color: #F4792C;
+	font-size: 40px;
+	font-weight: 700;
+	display: block;
+
+}
+
+.statText{
+	margin: 0;
+	color: #2954a2;
+	font-size: 24px;
+    text-transform: capitalize;
+    display: inline-block;
+
+}
+
+
+@media(max-width: 550px){
+	.Scroller{
+		font-size: 36px;
+	}
+
+	.statText{
+		font-size: 20px;
+	}
+
+}

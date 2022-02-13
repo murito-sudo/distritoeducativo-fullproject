@@ -1,0 +1,112 @@
+.card{
+  display: flex;
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+
+
+}
+
+
+.cardItem{
+	border-top: medium dashed #2954a2;
+	background-color: white;
+	text-align: center;
+	padding: 32px;
+	width: 50%;
+	transition: .5s ease-in;
+    -webkit-transition: .5s ease-in;
+
+}
+
+
+.cardItem:first-child{
+	background-color: #2954a2;
+	color: white;
+	border-color: #F4792C;
+}
+
+
+
+.cardItem:last-child:hover{
+	border-top: medium dashed #F4792C;
+	background-color: #2954a2;
+	transition: .5s ease-in;
+    -webkit-transition: .5s ease-in;
+    color: white;
+}
+
+.cardItem:last-child:hover > .cardHeaderBlack{
+
+	color: #F4792C;
+	transition: .5s ease-in;
+    -webkit-transition: .5s ease-in;
+ 
+}
+
+.cardIcon{
+	transform: scale(1.8);
+	color: white;
+}
+
+.cardIconBlack{
+	transform: scale(1.8);
+	color: gray;
+
+
+}
+
+
+.cardHeader{
+	color: #F4792C;
+	font-size: 24px;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-bottom: 0;
+}
+
+
+.cardHeaderBlack{
+	color: black;
+	font-size: 24px;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-bottom: 0;
+
+
+}
+
+.cardDesc{
+	font-size: 18px;
+	margin: 24px 0;
+	text-align:center;
+	width: 100%;
+	
+	
+}
+
+
+.cardButton{
+	padding: 10.08px 14.14px;
+	background-color: #F4792C;
+	border: none;
+	outline: none;
+	text-decoration: none;
+	font-size: 0.9em;
+	color: white;
+	transition: .5s ease-in;
+    -webkit-transition: .5s ease-in;
+    
+
+}
+
+
+.cardButton:hover{
+	cursor: pointer;
+	    transition: .5s ease-in;
+    -webkit-transition: .5s ease-in;
+    background-color: white;
+    color: black;
+}
+
+

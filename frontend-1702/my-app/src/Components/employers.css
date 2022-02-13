@@ -1,0 +1,44 @@
+
+
+
+.Employers{
+	margin: 0px 126.5px;
+}
+
+
+.EmployerHeading{
+	width: 35%;
+	margin-top: 0;
+	border-bottom: dashed 2px #333333;
+}
+
+.EmployersGrid{
+
+}
+
+
+
+
+
+
+@media(max-width: 1260px){
+	.Employers{
+		margin: 0px 64px;
+	}
+
+	.owl-theme{
+
+	}
+
+
+	
+}
+
+@media(max-width: 1010px){
+	.Employers{
+		margin: 0px 32px;
+	}
+	.EmployerHeading{
+		width: 60%;
+	}
+}
